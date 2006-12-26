@@ -26,22 +26,20 @@ none
 Installation:
 
 If you have administrative privileges you can install the SGT
-Package by running the following commands:
+package by running the following commands:
 
 perl Makefile.PL
 make
 make test
 make install
 
-This will install the module in system directories (like /usr/bin/ etc). In
+This will install the module in system directories (/usr/bin/ etc). In
 this case, it's very likely that you will be able to run SGT, without having 
 to explicitly set any environment variables.
 
 If you do not have administrative privileges, you can use the PREFIX variable 
-to specify a directory to which you have write access, and you can use the  
-LIB variable to specify the directory where the platform independent  
-modules should be installed, Since SGT is platform independent it will be  
-installed directly under ~/lib:
+to specify a directory to which you have wrrte access, and you can use the  
+LIB variable to specify the directory where the module is supposed to be installed:
 
 perl Makefile.PL PREFIX=/home/mydirectory/SGT LIB=/home/mydirectory/SGT/lib
 make
@@ -51,9 +49,9 @@ make install
 The SGT Perl module will be installed in $LIB/lib. 
 
 To use the SGT package, you will need to set your PATH variable to
-include $PREFIX/bin and PERL5LIB variable to include the $LIB/lib  
-directory locations. These are displayed during the execution of make  
-install, so please make a note of them and be sure to set your  
+include $PREFIX/bin and the PERL5LIB variable to include the $LIB/lib  
+directory locations. These are displayed during the execution of 'make  
+install', so please make a note of them and be sure to set your  
 environment variables accordingly.
 
 ===================================================================

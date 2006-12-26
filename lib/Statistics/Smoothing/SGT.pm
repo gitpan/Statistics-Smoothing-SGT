@@ -16,6 +16,7 @@ Statistics::Smoothing::SGT - 	A Simple Good-Turing (SGT) smoothing implementatio
 =head1 AUTHORS
 
 Florian Doemges, florian@doemges.net
+
 Bjoern Wilmsmann, bjoern@wilmsmann.de
 
 =head1 COPYRIGHT
@@ -74,7 +75,7 @@ use Data::Dumper;
 
 our ($VERSION);
 
-$VERSION = '2.0.1';
+$VERSION = '2.0.2';
 
 # constructor
 sub new {

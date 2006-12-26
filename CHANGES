@@ -11,3 +11,6 @@ Revision history for Perl extension Statistics::Smoothing::SGT
 2.01  09 Dec 2006 10:00:00
 	- complete re-write
 	- re-named package to SGT
+	
+2.02  26 Dec 2006 10:00:00
+	- changes to documentation
