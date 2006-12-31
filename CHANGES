@@ -20,3 +20,6 @@ Revision history for Perl extension Statistics::Smoothing::SGT
 
 2.04  31 Dec 2006 14:43:00
 	- more changes to documentation and comments
+
+2.05  31 Dec 2006 17:00:00
+	- changes to README.pod
