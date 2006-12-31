@@ -47,7 +47,7 @@ along with this program; if not, write to
 
 Note: a copy of the GNU General Public License is available on the web
 at L<http://www.gnu.org/licenses/gpl.txt> and is included in this
-distribution as GPL.txt.
+distribution under the name GPL.
 
 =head1 BUGS
 
@@ -75,7 +75,7 @@ use Data::Dumper;
 
 our ($VERSION);
 
-$VERSION = '2.0.2';
+$VERSION = '2.0.3';
 
 # constructor
 sub new {

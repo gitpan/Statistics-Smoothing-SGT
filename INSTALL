@@ -38,7 +38,7 @@ this case, it's very likely that you will be able to run SGT, without having
 to explicitly set any environment variables.
 
 If you do not have administrative privileges, you can use the PREFIX variable 
-to specify a directory to which you have wrrte access, and you can use the  
+to specify a directory to which you have write access, and you can use the  
 LIB variable to specify the directory where the module is supposed to be installed:
 
 perl Makefile.PL PREFIX=/home/mydirectory/SGT LIB=/home/mydirectory/SGT/lib
@@ -90,6 +90,6 @@ with this program; if not, write to the Free Software Foundation, Inc., 59
 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 Note: The text of the GNU General Public License is provided in the file
-GPL.txt that you should have received with this distribution.
+GPL that you should have received with this distribution.
 
 ---
