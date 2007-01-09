@@ -11,10 +11,10 @@ DESCRIPTION
 
 	This Perl module implements the Simple Good Touring (SGT) algorithm 
     for smoothing of probabilistic values developed by William Gale and 
-    Geoffrey Sampson. 
+    Geoffrey Sampson.
 
-    The algorithm is described in the following article: 
-    <http://l2r.cs.uiuc.edu/~danr/Teaching/CS598-05/Papers/Gale-Sampson-smoothgoodturing.pdf>
+	The algorithm is described in detail in Sampson's Empirical Linguistics
+	(Continuum International, London and New York, 2001), chapter 7.
     
     Basic usage:
 
@@ -36,11 +36,15 @@ SEE ALSO
 
 COPYRIGHT
     Copyright (C) 2006, Florian Doemges and Bjoern Wilmsmann,
-    Department of Linguistics, Ruhr-University, Bochum
+    Department of Linguistics, Ruhr-University, Bochum.
     
     Partially based on the SGT module (Copyright (C) 2004) by Andre Halama
 	(halama@linguistics.rub.de) and Tibor Kiss (tibor@linguistics.rub.de),
-	Department of Linguistics, Ruhr-University, Bochum
+	Department of Linguistics, Ruhr-University, Bochum.
+	
+	This module in turn was based on the work (including an implementation
+	of the algorithm in C) by
+	Geoffrey Sampson, Department of Informatics, University of Sussex.
 
     This program is free software; you can redistribute it and/or modify it
     under the terms of the GNU General Public License as published by the
