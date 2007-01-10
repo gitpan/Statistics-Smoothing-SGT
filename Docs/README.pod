@@ -15,8 +15,8 @@
     for smoothing of probabilistic values developed by William Gale and 
     Geoffrey Sampson. 
 
-	The algorithm is described in detail in Sampson's Empirical Linguistics
-	(Continuum International, London and New York, 2001), chapter 7.
+    The algorithm is described in detail in Sampson's Empirical Linguistics
+    (Continuum International, London and New York, 2001), chapter 7.
     
     Basic usage:
 
@@ -48,9 +48,9 @@
     (halama@linguistics.rub.de) and Tibor Kiss (tibor@linguistics.rub.de),
     Department of Linguistics, Ruhr-University, Bochum.
 
-	This module in turn was based on the works (including an implementation
-	of the algorithm in C) by
-	Geoffrey Sampson, Department of Informatics, University of Sussex.
+    This module in turn was based on the works (including an implementation
+    of the algorithm in C) by
+    Geoffrey Sampson, Department of Informatics, University of Sussex.
 
     This program is free software; you can redistribute it and/or modify it
     under the terms of the GNU General Public License as published by the

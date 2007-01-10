@@ -59,6 +59,13 @@ distribution under the name GPL.
 
 =head1 DESCRIPTION
 
+This Perl module implements the Simple Good Turing (SGT) algorithm 
+for smoothing of probabilistic values developed by William Gale and 
+Geoffrey Sampson.
+
+The algorithm is described in detail in Sampson's Empirical Linguistics
+(Continuum International, London and New York, 2001), chapter 7.
+
 =head2 Error Codes
 
 =head2 Methods
@@ -79,7 +86,7 @@ use Data::Dumper;
 
 our ($VERSION);
 
-$VERSION = '2.0.7';
+$VERSION = '2.0.8';
 
 # constructor
 sub new {
