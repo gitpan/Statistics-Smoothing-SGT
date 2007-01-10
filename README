@@ -1,7 +1,7 @@
 NAME
     README for SGT package
 
-    Last updated for version 2.04, 31 December 2006
+    Last updated for version 2.07, 10 January 2007
 
 SYNOPSIS
     This document provides a general introduction to the SGT
@@ -9,7 +9,7 @@ SYNOPSIS
 
 DESCRIPTION
 
-	This Perl module implements the Simple Good Touring (SGT) algorithm 
+	This Perl module implements the Simple Good Turing (SGT) algorithm 
     for smoothing of probabilistic values developed by William Gale and 
     Geoffrey Sampson.
 

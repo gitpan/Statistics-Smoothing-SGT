@@ -26,7 +26,11 @@ Department of Linguistics, Ruhr-University, Bochum
 
 Partially based on the SGT module (Copyright (C) 2004) by Andre Halama
 (halama@linguistics.rub.de) and Tibor Kiss (tibor@linguistics.rub.de),
-Department of Linguistics, Ruhr-University, Bochum
+Department of Linguistics, Ruhr-University, Bochum.
+
+This module in turn was based on the work (including an implementation
+of the algorithm in C) by
+Geoffrey Sampson, Department of Informatics, University of Sussex.
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -75,7 +79,7 @@ use Data::Dumper;
 
 our ($VERSION);
 
-$VERSION = '2.0.6';
+$VERSION = '2.0.7';
 
 # constructor
 sub new {
