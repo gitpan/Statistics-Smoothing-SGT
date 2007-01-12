@@ -2,7 +2,7 @@
 
     README for SGT package
 
-    Last updated for version 2.07, 10 January 2007
+    Last updated for version 2.09, 12 January 2007
 
 =head1 SYNOPSIS
 
@@ -17,6 +17,8 @@
 
     The algorithm is described in detail in Sampson's Empirical Linguistics
     (Continuum International, London and New York, 2001), chapter 7.
+    An online version of this paper is available at Geoffrey Sampson's
+    homepage under http://www.grsampson.net/AGtf.html .
     
     Basic usage:
 

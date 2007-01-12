@@ -65,6 +65,8 @@ Geoffrey Sampson.
 
 The algorithm is described in detail in Sampson's Empirical Linguistics
 (Continuum International, London and New York, 2001), chapter 7.
+An online version of this paper is available at Geoffrey Sampson's
+homepage under L<http://www.grsampson.net/AGtf.html>.
 
 =head2 Error Codes
 
@@ -86,7 +88,7 @@ use Data::Dumper;
 
 our ($VERSION);
 
-$VERSION = '2.0.8';
+$VERSION = '2.0.9';
 
 # constructor
 sub new {
