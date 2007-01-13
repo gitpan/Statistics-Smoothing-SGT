@@ -1,7 +1,7 @@
 NAME
     README for SGT package
 
-    Last updated for version 2.09, 12 January 2007
+    Last updated for version 2.10, 12 January 2007
 
 SYNOPSIS
     This document provides a general introduction to the SGT
@@ -21,7 +21,7 @@ DESCRIPTION
     Basic usage:
 
 	    use Statistics::Smoothing::SGT
-		my $sgt = new SGT($frequencyClasses, $total);
+		my $sgt = new Statistics::Smoothing::SGT($frequencyClasses, $total);
 		$sgt->calculateSGTValues();
   		$probabilities = $sgt->getProbabilities();
   		$newFrequencies = $sgt->getNewFrequencies();

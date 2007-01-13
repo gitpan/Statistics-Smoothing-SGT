@@ -7,7 +7,7 @@ Statistics::Smoothing::SGT - 	A Simple Good-Turing (SGT) smoothing implementatio
 =head2 Basic Usage
 
   use Statistics::Smoothing::SGT
-  my $sgt = new SGT($frequencyClasses, $total);
+  my $sgt = new Statistics::Smoothing::SGT($frequencyClasses, $total);
   $sgt->calculateSGTValues();
   $probabilities = $sgt->getProbabilities();
   $newFrequencies = $sgt->getNewFrequencies();
@@ -77,7 +77,7 @@ homepage under L<http://www.grsampson.net/AGtf.html>.
 =cut
 
 
-package SGT;
+package Statistics::Smoothing::SGT;
 
 # use strict, as we do not our variables to go haywire
 use strict;
@@ -88,7 +88,7 @@ use Data::Dumper;
 
 our ($VERSION);
 
-$VERSION = '2.0.9';
+$VERSION = '2.1.0';
 
 # constructor
 sub new {
