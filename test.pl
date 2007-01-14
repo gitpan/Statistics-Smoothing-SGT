@@ -12,9 +12,9 @@ my %frequencies = (	1 => 20000,
 					5 => 5000);
 
 # get new SGT object
-my $sgt = new SGT(\%frequencies);
+my $sgt = new Statistics::Smoothing::SGT(\%frequencies);
 
 # apply some to tests to this object
 ok(defined $sgt, "Passed: Constructor working alright");
-ok($sgt->isa("SGT"), "Passed: Object is in class \"SGT\"!");
+ok($sgt->isa("Statistics::Smoothing::SGT"), "Passed: Object is in class \"SGT\"!");
 can_ok($sgt, "calculateSGTValues");
