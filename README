@@ -22,7 +22,7 @@ DESCRIPTION
 
 	    use Statistics::Smoothing::SGT
 		my $sgt = new Statistics::Smoothing::SGT($frequencyClasses, $total);
-		$sgt->calculateSGTValues();
+		$sgt->calculateValues();
   		$probabilities = $sgt->getProbabilities();
   		$newFrequencies = $sgt->getNewFrequencies();
   		$nBar = $sgt->getNBar();

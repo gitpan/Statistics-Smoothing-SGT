@@ -8,7 +8,7 @@ Statistics::Smoothing::SGT - 	A Simple Good-Turing (SGT) smoothing implementatio
 
   use Statistics::Smoothing::SGT
   my $sgt = new Statistics::Smoothing::SGT($frequencyClasses, $total);
-  $sgt->calculateSGTValues();
+  $sgt->calculateValues();
   $probabilities = $sgt->getProbabilities();
   $newFrequencies = $sgt->getNewFrequencies();
   $nBar = $sgt->getNBar();
@@ -88,7 +88,7 @@ use Data::Dumper;
 
 our ($VERSION);
 
-$VERSION = '2.1.1';
+$VERSION = '2.1.2';
 
 # constructor
 sub new {
@@ -199,7 +199,7 @@ sub logBestFit {
 }
 
 # public method for calculating SGT-smoothed values
-sub calculateSGTValues() {
+sub calculateValues() {
 	my ($self) = @_;
 	my $gapAt;
 	my $slope;
